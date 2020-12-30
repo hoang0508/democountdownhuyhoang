@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2fcfe;
+    background-image: url(https://images.unsplash.com/photo-1577046848358-4623c0859b8a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8aGFwcHklMjBuZXclMjB5ZWFyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul.Countdown{
+    padding: 30px;
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    background: #00B4DB;
+   /*  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB); */
+    color: white;
+    border-radius: 10px;
+}
+
+ul li.countdown-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+li.countdown-item span.number{
+    font-weight: 600;
+    font-size: 35px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 2px 5px;
+    background: #fff;
+    color: black;
+}
+
+li.countdown-item span.txt{
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+#demo{
+    display: block;
+}
+
+
+
+
+
+
+
